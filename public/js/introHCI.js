@@ -51,5 +51,8 @@ function clickHandler(e) {
           '<p><small>' + result.date +
           '</small></p></a>'; 
 
+          console.log('#project' + result.id + ' .details')
+
+          $('#project' + result.id + ' .details').html(projectHTML);
 	 }
 	   
